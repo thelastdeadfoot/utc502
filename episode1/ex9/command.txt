@@ -1,1 +1,1 @@
-echo "JPP.">>message.txt
+echo "JPP." >> message.txt 2>&1
