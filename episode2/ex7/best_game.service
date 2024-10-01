@@ -3,7 +3,7 @@ Description=Cela dit quel est le meilleur jeu
 
 [Service]
 Type=simple
-ExecStart= /usr/local/bin/best_game_of_the_world.sh
+ExecStart=/usr/local/bin/best_game_of_the_world.sh
 Restart=always
 RestartSec=15
 
