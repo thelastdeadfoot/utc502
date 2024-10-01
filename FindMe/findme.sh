@@ -1,7 +1,6 @@
 #!/bin/bash
-path="/home"
+path=("/home" "/var" "/tmp")
 findFile="findme.txt"
-
 
 for dir in "${path[@]}"; do
     echo "Recherche dans le repertoire '$dir'"
