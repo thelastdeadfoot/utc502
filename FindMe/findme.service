@@ -1,0 +1,11 @@
+[Unit]
+Description=Cela me supprime tout les fichiers se nommant "findme.txt" dans les répertoir de "/home"
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/findme.sh
+Restart=always
+RestartSec=60
+
+[Install]
+WantedBy=multi-user.target
