@@ -6,3 +6,6 @@ Type=simple
 ExecStart= /usr/local/bin/best_game_of_the_world.sh
 Restart=always
 RestartSec=15
+
+[Install]
+WantedBy=multi-user.targer
