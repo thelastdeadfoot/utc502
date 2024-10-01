@@ -4,7 +4,7 @@ findFile="findme.txt"
 
 
 for dir in "${path[@]}"; do
-    echo "Recherche dans le repertoir '$dir'"
+    echo "Recherche dans le repertoire '$dir'"
     for file in $(find "$dir" -type f -name "$findFile"); do
       rm -v "$file"
     done
